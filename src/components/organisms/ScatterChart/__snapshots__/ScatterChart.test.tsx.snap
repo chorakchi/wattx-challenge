@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScatterChart should render correctly and match to the Snapshot 1`] = `
+<div
+  className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF ScatterChartstyled__StyledWrapper-sc-1yjqzm4-0 DfZoV"
+  hidden={false}
+/>
+`;

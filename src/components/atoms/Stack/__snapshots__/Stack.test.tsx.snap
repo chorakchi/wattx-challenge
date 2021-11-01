@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stack should render correctly and match to the Snapshot 1`] = `
+<div
+  className="Stackstyled__StackStyled-sc-1adxq1u-0 jWmaRX"
+>
+  Stack
+</div>
+`;

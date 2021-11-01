@@ -1,0 +1,1295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarketOverview should render correctly and match to the Snapshot 1`] = `
+<div
+  className="PageLayoutstyled__StyledWrapper-sc-1kudg7l-0 cijTrw"
+>
+  <div
+    className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF Menustyled__StyledWrapper-sc-1vjf9c7-0 gkofae"
+  >
+    <div
+      className="Menustyled__StyledItem-sc-1vjf9c7-1 dUQqyy"
+      onClick={[Function]}
+      selected={true}
+    >
+      <svg
+        name="home"
+        size="medium"
+      />
+    </div>
+    <div
+      className="Menustyled__StyledItem-sc-1vjf9c7-1 bytQZX"
+      onClick={[Function]}
+      selected={false}
+    >
+      <svg
+        name="analysis"
+        size="medium"
+      />
+    </div>
+    <div
+      className="Menustyled__StyledGap-sc-1vjf9c7-2 ddQrIZ"
+    />
+    <div
+      className="Menustyled__StyledItem-sc-1vjf9c7-1 bytQZX"
+      onClick={[Function]}
+      selected={false}
+    >
+      <svg
+        name="info"
+        size="medium"
+      />
+    </div>
+  </div>
+  <div
+    className="Stackstyled__StackStyled-sc-1adxq1u-0 bnrRyH mainBlock"
+    direction="column"
+  >
+    <div
+      className="Typographystyled__TypographyStyled-sc-i22hyo-0 jzzjid"
+    >
+      Market overview
+    </div>
+    <div
+      className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+    >
+      With all of the styling tool options available in today’s market
+      <div
+        className="Dropdownstyled__StyledWrapper-sc-1n61ek4-0 fyJHxp"
+      >
+        <select
+          className="Dropdownstyled__StyledDropdown-sc-1n61ek4-1 iOqnwJ"
+          onChange={[Function]}
+          value={10}
+        >
+          <option
+            className="Dropdownstyled__StyledOption-sc-1n61ek4-2"
+            value={10}
+          >
+            10
+          </option>
+          <option
+            className="Dropdownstyled__StyledOption-sc-1n61ek4-2"
+            value={50}
+          >
+            50
+          </option>
+          <option
+            className="Dropdownstyled__StyledOption-sc-1n61ek4-2"
+            value={5000}
+          >
+            all
+          </option>
+        </select>
+        <svg
+          className="icon"
+          color="#0071FF"
+          name="arrowDown"
+        />
+      </div>
+    </div>
+    <div
+      className="Stackstyled__StackStyled-sc-1adxq1u-0 jWmaRX mainBlock"
+      direction="row"
+    >
+      <div
+        className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF Tablestyled__StyledWrapper-sc-1bwnru4-1 dVBaTC"
+      >
+        <table
+          className="Tablestyled__StyledTable-sc-1bwnru4-0 bLIjVx"
+        >
+          <thead>
+            <tr>
+              <td
+                className="Tablestyled__TextStyled-sc-1bwnru4-2 Tablestyled__StyledHeading-sc-1bwnru4-3 cbPEmA czeCIj"
+              >
+                <span
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+                >
+                  
+                </span>
+              </td>
+              <td
+                className="Tablestyled__TextStyled-sc-1bwnru4-2 Tablestyled__StyledHeading-sc-1bwnru4-3 cbPEmA czeCIj"
+              >
+                <span
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+                >
+                  Name
+                </span>
+              </td>
+              <td
+                className="Tablestyled__TextStyled-sc-1bwnru4-2 Tablestyled__StyledHeading-sc-1bwnru4-3 cbPEmA czeCIj"
+              >
+                <span
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+                >
+                  Rank
+                </span>
+              </td>
+              <td
+                className="Tablestyled__TextStyled-sc-1bwnru4-2 Tablestyled__StyledHeading-sc-1bwnru4-3 cbPEmA czeCIj"
+              >
+                <span
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+                >
+                  Price
+                </span>
+              </td>
+              <td
+                className="Tablestyled__TextStyled-sc-1bwnru4-2 Tablestyled__StyledHeading-sc-1bwnru4-3 cbPEmA czeCIj"
+              >
+                <span
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+                >
+                  Market Cap
+                </span>
+              </td>
+              <td
+                className="Tablestyled__TextStyled-sc-1bwnru4-2 Tablestyled__StyledHeading-sc-1bwnru4-3 cbPEmA czeCIj"
+              >
+                <span
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+                >
+                  Price Change (24h)
+                </span>
+              </td>
+              <td
+                className="Tablestyled__TextStyled-sc-1bwnru4-2 Tablestyled__StyledHeading-sc-1bwnru4-3 cbPEmA czeCIj"
+              >
+                <span
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+                >
+                  Volume (24h)
+                </span>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": 0,
+                      "boxSizing": "border-box",
+                      "display": "inline-block",
+                      "height": "initial",
+                      "margin": 0,
+                      "maxWidth": "100%",
+                      "opacity": 1,
+                      "overflow": "hidden",
+                      "padding": 0,
+                      "position": "relative",
+                      "width": "initial",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "background": "none",
+                        "border": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": "initial",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "opacity": 1,
+                        "padding": 0,
+                        "width": "initial",
+                      }
+                    }
+                  >
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTIiIGhlaWdodD0iNTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style={
+                        Object {
+                          "background": "none",
+                          "border": 0,
+                          "display": "block",
+                          "height": "initial",
+                          "margin": 0,
+                          "maxWidth": "100%",
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": "initial",
+                        }
+                      }
+                    />
+                  </span>
+                  <img
+                    className="icon"
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                  <noscript>
+                    <img
+                      className="icon"
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      loading="lazy"
+                      src="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCBTC.svg&w=128&q=75"
+                      srcSet="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCBTC.svg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCBTC.svg&w=128&q=75 2x"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </noscript>
+                </span>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  Bitcoin
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 eMwBQz"
+                >
+                  1
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  60789.66
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 iHigjS"
+                >
+                  -1.43
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  1145611846639
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  38412572337
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": 0,
+                      "boxSizing": "border-box",
+                      "display": "inline-block",
+                      "height": "initial",
+                      "margin": 0,
+                      "maxWidth": "100%",
+                      "opacity": 1,
+                      "overflow": "hidden",
+                      "padding": 0,
+                      "position": "relative",
+                      "width": "initial",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "background": "none",
+                        "border": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": "initial",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "opacity": 1,
+                        "padding": 0,
+                        "width": "initial",
+                      }
+                    }
+                  >
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTIiIGhlaWdodD0iNTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style={
+                        Object {
+                          "background": "none",
+                          "border": 0,
+                          "display": "block",
+                          "height": "initial",
+                          "margin": 0,
+                          "maxWidth": "100%",
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": "initial",
+                        }
+                      }
+                    />
+                  </span>
+                  <img
+                    className="icon"
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                  <noscript>
+                    <img
+                      className="icon"
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      loading="lazy"
+                      src="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCETH.svg&w=128&q=75"
+                      srcSet="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCETH.svg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCETH.svg&w=128&q=75 2x"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </noscript>
+                </span>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  Ethereum
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 eMwBQz"
+                >
+                  1
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  3865.11
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 iHigjS"
+                >
+                  -0.61
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  455901921929
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  17834027180
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": 0,
+                      "boxSizing": "border-box",
+                      "display": "inline-block",
+                      "height": "initial",
+                      "margin": 0,
+                      "maxWidth": "100%",
+                      "opacity": 1,
+                      "overflow": "hidden",
+                      "padding": 0,
+                      "position": "relative",
+                      "width": "initial",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "background": "none",
+                        "border": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": "initial",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "opacity": 1,
+                        "padding": 0,
+                        "width": "initial",
+                      }
+                    }
+                  >
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTIiIGhlaWdodD0iNTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style={
+                        Object {
+                          "background": "none",
+                          "border": 0,
+                          "display": "block",
+                          "height": "initial",
+                          "margin": 0,
+                          "maxWidth": "100%",
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": "initial",
+                        }
+                      }
+                    />
+                  </span>
+                  <img
+                    className="icon"
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                  <noscript>
+                    <img
+                      className="icon"
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      loading="lazy"
+                      src="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCBNB.svg&w=128&q=75"
+                      srcSet="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCBNB.svg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCBNB.svg&w=128&q=75 2x"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </noscript>
+                </span>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  Binance Coin
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 eMwBQz"
+                >
+                  1
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  466.48
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 iHigjS"
+                >
+                  -1.10
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  78432909179
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  2070636046
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": 0,
+                      "boxSizing": "border-box",
+                      "display": "inline-block",
+                      "height": "initial",
+                      "margin": 0,
+                      "maxWidth": "100%",
+                      "opacity": 1,
+                      "overflow": "hidden",
+                      "padding": 0,
+                      "position": "relative",
+                      "width": "initial",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "background": "none",
+                        "border": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": "initial",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "opacity": 1,
+                        "padding": 0,
+                        "width": "initial",
+                      }
+                    }
+                  >
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTIiIGhlaWdodD0iNTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style={
+                        Object {
+                          "background": "none",
+                          "border": 0,
+                          "display": "block",
+                          "height": "initial",
+                          "margin": 0,
+                          "maxWidth": "100%",
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": "initial",
+                        }
+                      }
+                    />
+                  </span>
+                  <img
+                    className="icon"
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                  <noscript>
+                    <img
+                      className="icon"
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      loading="lazy"
+                      src="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCADA.svg&w=128&q=75"
+                      srcSet="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCADA.svg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCADA.svg&w=128&q=75 2x"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </noscript>
+                </span>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  Cardano
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 eMwBQz"
+                >
+                  1
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  2.19
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 iHigjS"
+                >
+                  -1.50
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  71956827935
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  2605292904
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": 0,
+                      "boxSizing": "border-box",
+                      "display": "inline-block",
+                      "height": "initial",
+                      "margin": 0,
+                      "maxWidth": "100%",
+                      "opacity": 1,
+                      "overflow": "hidden",
+                      "padding": 0,
+                      "position": "relative",
+                      "width": "initial",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "background": "none",
+                        "border": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": "initial",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "opacity": 1,
+                        "padding": 0,
+                        "width": "initial",
+                      }
+                    }
+                  >
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTIiIGhlaWdodD0iNTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style={
+                        Object {
+                          "background": "none",
+                          "border": 0,
+                          "display": "block",
+                          "height": "initial",
+                          "margin": 0,
+                          "maxWidth": "100%",
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": "initial",
+                        }
+                      }
+                    />
+                  </span>
+                  <img
+                    className="icon"
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                  <noscript>
+                    <img
+                      className="icon"
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      loading="lazy"
+                      src="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCUSDT.svg&w=128&q=75"
+                      srcSet="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCUSDT.svg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCUSDT.svg&w=128&q=75 2x"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </noscript>
+                </span>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  Tether
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 eMwBQz"
+                >
+                  1
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  1.00
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  0.00
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  68753034847
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  70584860663
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": 0,
+                      "boxSizing": "border-box",
+                      "display": "inline-block",
+                      "height": "initial",
+                      "margin": 0,
+                      "maxWidth": "100%",
+                      "opacity": 1,
+                      "overflow": "hidden",
+                      "padding": 0,
+                      "position": "relative",
+                      "width": "initial",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "background": "none",
+                        "border": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": "initial",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "opacity": 1,
+                        "padding": 0,
+                        "width": "initial",
+                      }
+                    }
+                  >
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTIiIGhlaWdodD0iNTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style={
+                        Object {
+                          "background": "none",
+                          "border": 0,
+                          "display": "block",
+                          "height": "initial",
+                          "margin": 0,
+                          "maxWidth": "100%",
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": "initial",
+                        }
+                      }
+                    />
+                  </span>
+                  <img
+                    className="icon"
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                  <noscript>
+                    <img
+                      className="icon"
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      loading="lazy"
+                      src="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCXRP.svg&w=128&q=75"
+                      srcSet="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCXRP.svg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCXRP.svg&w=128&q=75 2x"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </noscript>
+                </span>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  XRP
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 eMwBQz"
+                >
+                  1
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  1.14
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 iHigjS"
+                >
+                  -0.05
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  53640103617
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  4051590232
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": 0,
+                      "boxSizing": "border-box",
+                      "display": "inline-block",
+                      "height": "initial",
+                      "margin": 0,
+                      "maxWidth": "100%",
+                      "opacity": 1,
+                      "overflow": "hidden",
+                      "padding": 0,
+                      "position": "relative",
+                      "width": "initial",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "background": "none",
+                        "border": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": "initial",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "opacity": 1,
+                        "padding": 0,
+                        "width": "initial",
+                      }
+                    }
+                  >
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTIiIGhlaWdodD0iNTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style={
+                        Object {
+                          "background": "none",
+                          "border": 0,
+                          "display": "block",
+                          "height": "initial",
+                          "margin": 0,
+                          "maxWidth": "100%",
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": "initial",
+                        }
+                      }
+                    />
+                  </span>
+                  <img
+                    className="icon"
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                  <noscript>
+                    <img
+                      className="icon"
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      loading="lazy"
+                      src="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCSOL.svg&w=128&q=75"
+                      srcSet="/_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCSOL.svg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fs3-symbol-logo.tradingview.com%2Fcrypto%2FXTVCSOL.svg&w=128&q=75 2x"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </noscript>
+                </span>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  Solana
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 eMwBQz"
+                >
+                  1
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  158.70
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 iHigjS"
+                >
+                  -2.53
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  47654350081
+                </div>
+              </td>
+              <td>
+                <div
+                  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm Tablestyled__TextStyled-sc-1bwnru4-2 cbPEmA"
+                >
+                  1946537911
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

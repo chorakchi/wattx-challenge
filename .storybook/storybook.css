@@ -1,0 +1,37 @@
+.stories-icon-block {
+  display: flex;
+  flex-flow: wrap;
+  background: #ffffff;
+  box-shadow: 0px -2px 8px rgba(116, 128, 148, 0.08),
+    0px 2px 4px rgba(116, 128, 148, 0.02), 0px 4px 8px rgba(116, 128, 148, 0.08),
+    0px 8px 16px rgba(116, 128, 148, 0.16);
+  border-radius: 16px;
+  width: fit-content;
+  padding: 16px;
+  flex-wrap: nowrap;
+}
+.stories-icon-svg {
+  margin: 16px;
+}
+
+.stories-icon-item {
+  margin: 5px;
+  min-width: 60px;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+}
+
+.stories-icon-text-cat {
+  color: var(--gray-6);
+}
+
+.stories-stack-block{
+  padding: 20px;
+  border: 1px solid rgb(127, 151, 151);
+  background-color: rgb(172, 199, 199);
+  color:rgb(77, 93, 93);
+}

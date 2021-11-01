@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box should render correctly and match to the Snapshot 1`] = `
+<div
+  className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF"
+>
+  Box
+</div>
+`;

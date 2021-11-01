@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography should render correctly and match to the Snapshot 1`] = `
+<div
+  className="Dropdownstyled__StyledWrapper-sc-1n61ek4-0 fyJHxp"
+>
+  <select
+    className="Dropdownstyled__StyledDropdown-sc-1n61ek4-1 iOqnwJ"
+    onSelect={[Function]}
+    value={1}
+  >
+    <option
+      className="Dropdownstyled__StyledOption-sc-1n61ek4-2"
+      value={10}
+    >
+      10
+    </option>
+    <option
+      className="Dropdownstyled__StyledOption-sc-1n61ek4-2"
+      value={50}
+    >
+      50
+    </option>
+    <option
+      className="Dropdownstyled__StyledOption-sc-1n61ek4-2"
+      value={5000}
+    >
+      all
+    </option>
+  </select>
+  <svg
+    className="icon"
+    color="#0071FF"
+    name="arrowDown"
+  />
+</div>
+`;

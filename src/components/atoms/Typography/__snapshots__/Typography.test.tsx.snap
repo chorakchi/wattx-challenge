@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography should render correctly and match to the Snapshot 1`] = `
+<div
+  className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+>
+  Typography
+</div>
+`;

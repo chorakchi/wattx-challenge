@@ -1,0 +1,67 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "sb": "start-storybook -s ./public -p 6006",
+    "build-sb": "build-storybook -s ./public",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "test-coverage": "test --coverage  --watchAll=false"
+  },
+  "dependencies": {
+    "highcharts": "^9.3.0",
+    "highcharts-react-official": "^3.1.0",
+    "next": "latest",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "react-svg": "^14.0.16",
+    "react-window": "^1.8.6",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "@babel/core": "^7.15.8",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "@types/jest": "^24.0.0",
+    "@types/react": "17.0.29",
+    "@types/swagger-jsdoc": "6.0.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-styled-components": "^1.12.0",
+    "enzyme": "^3.11.0",
+    "typescript": "^4.4.4"
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>/src/"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest-setup.ts"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/index.tsx",
+      "!*/index.tsx",
+      "!src/**/*.stories.tsx",
+      "!src/**/*.type.tsx",
+      "!src/**/*.interface.tsx",
+      "!src/**/*.interface.ts",
+      "!src/**/*.mock.tsx",
+      "!src/**/*.styled.tsx",
+      "!src/**/*.styled.ts",
+      "!src/**/iconList.tsx",
+      "!*/react-app-env.d.ts"
+    ]
+  }
+}

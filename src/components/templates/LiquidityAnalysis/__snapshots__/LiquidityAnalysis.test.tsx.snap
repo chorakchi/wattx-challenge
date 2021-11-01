@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LiquidityAnalysis should render correctly and match to the Snapshot 1`] = `
+<div
+  className="PageLayoutstyled__StyledWrapper-sc-1kudg7l-0 cijTrw"
+>
+  <div
+    className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF Menustyled__StyledWrapper-sc-1vjf9c7-0 gkofae"
+  >
+    <div
+      className="Menustyled__StyledItem-sc-1vjf9c7-1 bytQZX"
+      onClick={[Function]}
+      selected={false}
+    >
+      <svg
+        name="home"
+        size="medium"
+      />
+    </div>
+    <div
+      className="Menustyled__StyledItem-sc-1vjf9c7-1 dUQqyy"
+      onClick={[Function]}
+      selected={true}
+    >
+      <svg
+        name="analysis"
+        size="medium"
+      />
+    </div>
+    <div
+      className="Menustyled__StyledGap-sc-1vjf9c7-2 ddQrIZ"
+    />
+    <div
+      className="Menustyled__StyledItem-sc-1vjf9c7-1 bytQZX"
+      onClick={[Function]}
+      selected={false}
+    >
+      <svg
+        name="info"
+        size="medium"
+      />
+    </div>
+  </div>
+  <div
+    className="Stackstyled__StackStyled-sc-1adxq1u-0 bnrRyH mainBlock"
+    direction="column"
+  >
+    <div
+      className="Typographystyled__TypographyStyled-sc-i22hyo-0 jzzjid"
+    >
+      Liquidity Analysis
+    </div>
+    <div
+      className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+    >
+      Click and drag in to zoom in area
+      <div
+        className="Dropdownstyled__StyledWrapper-sc-1n61ek4-0 fyJHxp"
+      >
+        <select
+          className="Dropdownstyled__StyledDropdown-sc-1n61ek4-1 iOqnwJ"
+          onChange={[Function]}
+          value={10}
+        >
+          <option
+            className="Dropdownstyled__StyledOption-sc-1n61ek4-2"
+            value={10}
+          >
+            10
+          </option>
+          <option
+            className="Dropdownstyled__StyledOption-sc-1n61ek4-2"
+            value={50}
+          >
+            50
+          </option>
+          <option
+            className="Dropdownstyled__StyledOption-sc-1n61ek4-2"
+            value={5000}
+          >
+            all
+          </option>
+        </select>
+        <svg
+          className="icon"
+          color="#0071FF"
+          name="arrowDown"
+        />
+      </div>
+    </div>
+    <div
+      className="Stackstyled__StackStyled-sc-1adxq1u-0 jWmaRX mainBlock"
+      direction="row"
+    >
+      <div
+        className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF ScatterChartstyled__StyledWrapper-sc-1yjqzm4-0 DfZoV"
+        hidden={false}
+      />
+      <div
+        className="Stackstyled__StackStyled-sc-1adxq1u-0 bnrRyH"
+        direction="column"
+      >
+        <div
+          className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF InfoBlockstyled__StyledWrapper-sc-m9bizz-0 diFRwU LiquidityAnalysisstyled__StyledInfoBlock-sc-imudr8-0 cICoIu"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "opacity": 1,
+                  "padding": 0,
+                  "width": "initial",
+                }
+              }
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA0IiBoZWlnaHQ9IjEwNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "display": "block",
+                    "height": "initial",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "opacity": 1,
+                    "padding": 0,
+                    "width": "initial",
+                  }
+                }
+              />
+            </span>
+            <img
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                data-nimg="intrinsic"
+                decoding="async"
+                loading="lazy"
+                src="/_next/image?url=%2Fassets%2Fimages%2Fshape1.svg&w=256&q=75"
+                srcSet="/_next/image?url=%2Fassets%2Fimages%2Fshape1.svg&w=128&q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fshape1.svg&w=256&q=75 2x"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+          <div
+            className="Typographystyled__TypographyStyled-sc-i22hyo-0 cNzAcG InfoBlockstyled__StyledText-sc-m9bizz-1 bTDGju"
+          >
+            WATTx Front-End Engineer Challenge: Top Coins (React)
+          </div>
+          <div
+            className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm InfoBlockstyled__StyledText-sc-m9bizz-1 bTDGju"
+          >
+            The WATTx Code Challenge is an opportunity to demonstrate proficiency with problem solving ...
+          </div>
+          <a
+            className="InfoBlockstyled__StyledText-sc-m9bizz-1 bTDGju"
+            href="https://github.com/WATTx/code-challenges"
+            target="_blank"
+          >
+            read more ...
+          </a>
+        </div>
+        <div
+          className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF InfoBlockstyled__StyledWrapper-sc-m9bizz-0 diFRwU LiquidityAnalysisstyled__StyledInfoBlock-sc-imudr8-0 cICoIu"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "opacity": 1,
+                  "padding": 0,
+                  "width": "initial",
+                }
+              }
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjEwNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "display": "block",
+                    "height": "initial",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "opacity": 1,
+                    "padding": 0,
+                    "width": "initial",
+                  }
+                }
+              />
+            </span>
+            <img
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                data-nimg="intrinsic"
+                decoding="async"
+                loading="lazy"
+                src="/_next/image?url=%2Fassets%2Fimages%2FmyPicture.png&w=640&q=75"
+                srcSet="/_next/image?url=%2Fassets%2Fimages%2FmyPicture.png&w=384&q=75 1x, /_next/image?url=%2Fassets%2Fimages%2FmyPicture.png&w=640&q=75 2x"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+          <div
+            className="Typographystyled__TypographyStyled-sc-i22hyo-0 cNzAcG InfoBlockstyled__StyledText-sc-m9bizz-1 bTDGju"
+          >
+            Mohammad Chorakchi
+            <svg
+              className="check"
+              color="#2DE577"
+              name="greenCheck"
+              size="small"
+            />
+          </div>
+          <svg
+            className="pro"
+            color="white"
+            name="proBadge"
+            size="large"
+          />
+          <div
+            className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm InfoBlockstyled__StyledText-sc-m9bizz-1 bTDGju"
+          >
+            UI Developer
+          </div>
+          <a
+            className="InfoBlockstyled__StyledText-sc-m9bizz-1 bTDGju"
+            href="https://www.linkedin.com/in/chorakchi/"
+            target="_blank"
+          >
+            read more ...
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

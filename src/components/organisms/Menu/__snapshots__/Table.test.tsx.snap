@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should render correctly and match to the Snapshot 1`] = `
+<div
+  className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF Menustyled__StyledWrapper-sc-1vjf9c7-0 gkofae"
+>
+  <div
+    className="Menustyled__StyledItem-sc-1vjf9c7-1 dUQqyy"
+    onClick={[Function]}
+    selected={true}
+  >
+    <svg
+      name="home"
+      size="medium"
+    />
+  </div>
+  <div
+    className="Menustyled__StyledGap-sc-1vjf9c7-2 ddQrIZ"
+  />
+</div>
+`;

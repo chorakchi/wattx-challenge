@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageLayout should render correctly and match to the Snapshot 1`] = `
+<div
+  className="PageLayoutstyled__StyledWrapper-sc-1kudg7l-0 cijTrw"
+>
+  <div
+    className="Boxstyled__BoxStyled-sc-12nhtob-0 bOPHwF Menustyled__StyledWrapper-sc-1vjf9c7-0 gkofae"
+  >
+    <div
+      className="Menustyled__StyledItem-sc-1vjf9c7-1 dUQqyy"
+      onClick={[Function]}
+      selected={true}
+    >
+      <svg
+        name="home"
+        size="medium"
+      />
+    </div>
+    <div
+      className="Menustyled__StyledGap-sc-1vjf9c7-2 ddQrIZ"
+    />
+  </div>
+  <div
+    className="Stackstyled__StackStyled-sc-1adxq1u-0 bnrRyH mainBlock"
+    direction="column"
+  >
+    <div
+      className="Typographystyled__TypographyStyled-sc-i22hyo-0 jzzjid"
+    />
+    <div
+      className="Typographystyled__TypographyStyled-sc-i22hyo-0 FBBmm"
+    />
+    <div
+      className="Stackstyled__StackStyled-sc-1adxq1u-0 jWmaRX mainBlock"
+      direction="row"
+    />
+  </div>
+</div>
+`;
