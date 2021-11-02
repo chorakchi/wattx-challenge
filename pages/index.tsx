@@ -32,10 +32,13 @@ export default function Home(props) {
 // It won't be called on client-side.
 export async function getServerSideProps({ params, query }) {
   // Call an external API endpoint to get posts.
-  const res2 = await fetch(...fetchArgProvider({ limit: query.limit }));
+  const res2 = await fetch(...fetchArgProvider({ limit: query.limit || 10 }));
   const json = await res2.json();
-// mockData or json as the API has restriction if it going out of work app working with mockData
-  const data = tableDataMapper({ limit: query.limit, items: json || mockData });
+  // mockData or json as the API has restriction if it going out of work app working with mockData
+  const data = tableDataMapper({
+    limit: query.limit || 10,
+    items: json || mockData,
+  });
 
   // will receive `items` as a prop at build time
   return {
